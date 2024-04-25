@@ -2503,7 +2503,7 @@ end)
 ---
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = " Sơn hack lỏ😁 ", HidePremium = false, IntroText = " Sơn hack lỏ😁 ", SaveConfig = true, ConfigFolder = "Sơn hack lỏ😁 "})
+local Window = OrionLib:MakeWindow({Name = " Vật lí đặc 🤨 ", HidePremium = false, IntroText = " Vật lí đặc 🤨 ", SaveConfig = true, ConfigFolder = "Vật lí đặc 🤨 "})
 ----------Tab-----------------------
 local W = Window:MakeTab({
     Name = "Thông Tin",
@@ -2542,7 +2542,7 @@ local E = Window:MakeTab({
 })
 
 local RA = Window:MakeTab({
-    Name = "tập kích",
+    Name = "Rai nha",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
@@ -2977,9 +2977,9 @@ task.spawn(function()
 	while task.wait() do
 		pcall(function()
 			if game.Workspace.Map:FindFirstChild("KitsuneIsland") then
-				mr:Set("🏝 Kitsune Island :  🟢yes")
-			else
-				mr:Set("🏝 Kitsune Island :  🔴no")
+				mr:Set("🏝 Kitsune Island :  🍀có nha")
+			end
+				mr:Set("🏝 Kitsune Island :  👎éo có đảo treo đi mày")
 			end
 		end)
 	end
