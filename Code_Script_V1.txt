@@ -2503,7 +2503,7 @@ end)
 ---
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = " Vật lí đặc 🤨 ", HidePremium = false, IntroText = " Vật lí đặc 🤨 ", SaveConfig = true, ConfigFolder = "Vật lí đặc 🤨 "})
+local Window = OrionLib:MakeWindow({Name = "Mong không Trượt TN🍀   ", HidePremium = false, IntroText = "Mong không Trượt TN🍀 ", SaveConfig = true, ConfigFolder = "Mong không Trượt TN🍀 "})
 ----------Tab-----------------------
 local W = Window:MakeTab({
     Name = "Thông Tin",
@@ -3686,7 +3686,7 @@ end
 end)
 
 local Section = M:AddSection({
-    Name = "Bone Menu"
+    Name = "Fram xương nha"
 })
 
 local Bone = M:AddLabel("Bone : ")
@@ -3702,7 +3702,7 @@ end)
 ToggleBone = M:AddToggle({
     Name = "Cày xương",
     Default = false,
-    Flag = "Tự động Farm Bone",
+    Flag = "Tự động xương",
     Save = true,
     Callback = function(Value)
         _G.Auto_Bone = Value
@@ -3782,7 +3782,7 @@ local EliteProgress = M:AddLabel("")
         
 
         M:AddToggle({
-            Name = "Cày Katakuri",
+            Name = "Cày và đánh Katakuri",
             Default = false,
             Flag = "Tự động Katakuri",
             Save = true,
@@ -3902,7 +3902,7 @@ end)
 
 
 M:AddToggle({
-    Name = "Đánh hết Boss",
+    Name = "Càn quyét Boss",
     Default = false,
     Flag = "Tự động Farm All Boss",
     Save = true,
@@ -4059,7 +4059,7 @@ end)
     })
 
     ST:AddToggle({
-        Name = "Màn hình treo",
+        Name = "Màn hình treo màu trắng🥛",
         Default = false,
         Flag = "White screen",
         Save = true,
@@ -4257,7 +4257,7 @@ IQ:AddToggle({
 })
 
 IQ:AddToggle({
-    Name = "Tự động Buy Legend Sword",
+    Name = "Tự động mua kiếm legend🗡",
     Default = false,
     Flag = "Tự động Legend",
     Save = true,
@@ -4347,7 +4347,7 @@ local Section = IQ:AddSection({
 })
 
 IQ:AddToggle({
-    Name = "Tự động Tushita",
+    Name = "Tự động lấy Tushita",
     Default = false,
     Flag = "Tự động Tushita",
     Save = true,
@@ -4430,11 +4430,11 @@ IQ:AddToggle({
 
 
         local Section = IQ:AddSection({
-            Name = "Dark Dragger"
+            Name = "Đánh râu đen"
         })
 
         IQ:AddToggle({
-            Name = "Tự động Dark Dragger",
+            Name = "Đánh râu đen",
             Default = false,
             Flag = "Tự động Dark",
             Save = true,
@@ -4756,7 +4756,7 @@ local Section = E:AddSection({
 })
 
 E:AddToggle({
-    Name = "ESP Ng Chơi",
+    Name = "Định vị Người Chơi",
     Default = false,
     Flag = "ESP Players",
     Save = true,
@@ -5019,7 +5019,7 @@ RA:AddButton({
 })
 
 RA:AddToggle({
-    Name = "Tự động Vào Raid",
+    Name = "Vào Raid",
     Default = false,
     Flag = "Tự động Start",
     Save = true,
@@ -5034,7 +5034,7 @@ local Section = RA:AddSection({
 })
 
 RA:AddToggle({
-    Name = "Kill Quái",
+    Name = "Bật haki bá vương giết Quái",
     Default = false,
     Flag = "Tự động KillAura",
     Save = true,
@@ -5055,7 +5055,7 @@ RA:AddToggle({
     })
 
 RA:AddToggle({
-    Name = "Tự động skill v2",
+    Name = "Tự động nậng v2",
     Default = false,
     Flag = "Tự động Awakener",
     Save = true,
@@ -5069,7 +5069,7 @@ local Section = RA:AddSection({
 })
 
 RA:AddToggle({
-    Name = "Tự động Mua Chips Law[Raid]",
+    Name = "Mua Chips Law[Raid]",
     Default = false,
     Flag = "Tự động Chips Law",
     Save = true,
@@ -5079,7 +5079,7 @@ RA:AddToggle({
 })
 
 RA:AddToggle({
-    Name = "Vào raid law",
+    Name = "Vào đánh law",
     Default = false,
     Flag = "Tự động Start Raid Law",
     Save = true,
@@ -5089,7 +5089,7 @@ RA:AddToggle({
 })
 
 RA:AddToggle({
-    Name = "Tự động Kill Law",
+    Name = "giết Law😁",
     Default = false,
     Flag = "Tự động Kill Law",
     Save = true,
@@ -5902,6 +5902,8 @@ FruitList = {
     "Spirit-Spirit",
     "Dragon-Dragon",
     "Leopard-Leopard"
+    "Kitsune"
+    "Voi"
 }
 
 D:AddToggle({
@@ -6044,7 +6046,7 @@ AutoPullLever = R:AddToggle({
 })
 
 R:AddToggle({
-    Name = "Tự động tộc v3",
+    Name = "Tự bật tộc v3",
     Default = false,
     Flag = "Tự động Turn On Race v3",
     Save = true,
@@ -6064,7 +6066,7 @@ spawn(function()
     end
 end)
 R:AddToggle({
-    Name = "Tự động tộc v4",
+    Name = "Tự bật tộc v4",
     Default = false,
     Flag = "Tự động Turn On Race v4",
     Save = true,
@@ -6243,7 +6245,7 @@ local Section = R:AddSection({
 })
 
 R:AddToggle({
-    Name = "Tự động hoàn thành ải",
+    Name = "Tự hoàn thành ải tộc 🙌",
     Default = false,
     Flag = "Tự động Complete Trials",
     Save = true,
@@ -6254,7 +6256,7 @@ R:AddToggle({
 })
 
 R:AddToggle({
-    Name = "Tự động kill người chơi",
+    Name = "kill người chơi🤭",
     Default = false,
     Flag = "KillTrials",
     Save = true,
@@ -6636,7 +6638,7 @@ local Section = C:AddSection({
 })
 
 C:AddToggle({
-	Name = "Lock Level",
+	Name = "Khóa Level",
 	Default = false,
     Flag = "Khóa Level",
     Save = true,
